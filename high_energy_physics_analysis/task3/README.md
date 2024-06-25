@@ -16,6 +16,12 @@ $$
 (-\infty, Q_{normal}(2.5\% )], (Q_{normal}(2.5\% ), Q_{normal}(16\% )], (Q_{normal}(16\% ), Q_{normal}(84\% )], (Q_{normal}(84\% ), Q_{normal}(97.5\% )], (Q_{normal}(97.5\% ), +\infty)
 $$
 
+- $(-\infty, Q_{normal}(2.5\%)]$
+- $(Q_{normal}(2.5\%), Q_{normal}(16\%)]$
+- $(Q_{normal}(16\%), Q_{normal}(84\%)]$
+- $(Q_{normal}(84\%), Q_{normal}(97.5\%)]$
+- $(Q_{normal}(97.5\%), +\infty)$
+
 Use corresponding five probability pairs in order to evaluate: $err = \frac{1}{5} \sum_{i=1}^{5} (P_{Normal} - P_{pmf})^2$ using $m = 20000$.
 
 
