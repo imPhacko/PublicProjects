@@ -1,0 +1,2 @@
+Aggregated error: 0.0000201190
+Bonus: Aggregated error mod. sqrt(1/5 * err): 0.0020059412

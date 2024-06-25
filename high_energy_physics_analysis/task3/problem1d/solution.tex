@@ -1,0 +1,53 @@
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[OT1,T1]{fontenc}
+\usepackage{amsmath}
+
+
+\begin{document}
+\selectlanguage{english}
+
+
+Since
+% 
+\begin{equation}
+    {\rm p-value} = P(x_{\rm obs} \ge X),
+\end{equation}
+for $n$-dim case 
+\begin{equation}
+    {\rm p-value}_n = P(\vec{x}_{\rm obs} \ge \vec{X}).
+\end{equation}
+% 
+In the case of the 
+mutually independent (probability distributions) dimensions,
+% 
+\begin{equation}
+    {\rm p-value}_n = \prod_i^n P(x_{i,\rm obs} \ge X_i)
+\end{equation}
+% 
+For $n$-dim Uniform distribution:
+% 
+\begin{equation}
+  {\rm p-value}_n =
+    \begin{cases}
+      \left(\frac{x}{b - a} \right)^n & \text{if } a < x \le \frac{b - a}{2}\\
+      \left(\frac{b - x}{b - a} \right)^n & \text{if } b > x > \frac{b - a}{2} \\
+      0 & \text{otherwise}
+    \end{cases}
+\end{equation}
+% 
+For ${\rm Uniform}(0, 10)$ and $\vec{x}_{\rm obs} = \{6...6\}$, $n = 50$:
+\begin{equation}
+    {\rm p-value}_{50} = \left(\frac{10 - 6}{10} \right)^{50} \approx 1.27 \cdot 
+10^{-20}.
+\end{equation}
+% 
+Comparing to $1/2^{50} \approx 8.88 \cdot 10^{-16}$, ${\rm p-value}_{50}$ \
+is over $10^4$ times less likely. Note that ex. 1c gives a result of about
+${\rm p-value} \approx 7 \cdot 10^{-3}$, which is less discriminating due to 
+a collective averaged (less precise) behavior. In this case, exact 
+multidimensional information is used to discriminate.
+
+
+\end{document}

@@ -1,0 +1,1 @@
+Estimated rates: n(signal) = 377, n(bkg) = 1180

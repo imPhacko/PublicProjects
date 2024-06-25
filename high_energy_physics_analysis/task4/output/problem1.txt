@@ -1,0 +1,2 @@
+MC integral of x**4 = 97.41 +- 0.19
+Actual error: 0.21

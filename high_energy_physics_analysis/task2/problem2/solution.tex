@@ -1,0 +1,37 @@
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[OT1,T1]{fontenc}
+\usepackage{amsmath}
+
+
+\begin{document}
+\selectlanguage{english}
+
+
+In Natural units, the following holds:
+
+\begin{equation}
+    E = \sqrt{m^2 + p^2} \to m^2 = E^2 - p^2 \label{eq:mass2}
+\end{equation}
+
+If $\beta_i = \frac{p_i}{E}$, then $\vec{\beta}=\frac{\vec{p}}{E}$ and
+$\beta^2 = \frac{p^2}{E^2}$, which can be put into the following:
+\begin{eqnarray}
+    E &=& m \gamma = \frac{m}{\sqrt{1 - \beta^2}} =
+            \frac{m}{\sqrt{1 - \frac{p^2}{E^2}}} =
+            \frac{m E}{\sqrt{E^2 - p^2}} \\
+        &\overset{\text{Eq.~(\ref{eq:mass2})}}{=}&
+            \frac{m E}{m} = E \quad\quad \text{\hfill Q.E.D.} 
+\end{eqnarray}
+
+\textbf{Alternatively}
+
+In Natural units, $\vec{\beta} = \vec{v}$ then
+\begin{equation}
+    \frac{\vec{p}}{E} = \frac{m \gamma\vec{v}}{m \gamma} = \vec{\beta}.
+\end{equation}
+
+
+
+\end{document}

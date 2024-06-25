@@ -1,0 +1,56 @@
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[OT1,T1]{fontenc}
+\usepackage{amsmath}
+
+
+\begin{document}
+\selectlanguage{english}
+
+
+In the given relation:
+\begin{equation}
+    x_1^4 + 4 x_2^2 + 6 x_3^2 + 8 x_4^2 = 40
+\end{equation}
+% 
+due to all positive coefficients and even powers of $x_i$, each $x_i$ has
+symmetric (along 0) minimum and maximum values. The maximum (minimum) is reached
+when $c_i x_i^{p_i} = 40$ and $x_j = 0\, \forall\, j \ne i$. Thus the maxima:
+% 
+\begin{equation}
+  {\rm Max} =
+    \begin{cases}
+      x_1^4 = 40 & \Rightarrow (\sqrt[4]{40}, 0, 0, 0) \\
+      4 x_2^2 = 40 & \Rightarrow (0, \sqrt{10}, 0, 0) \\
+      6 x_3^2 = 40 & \Rightarrow (0, 0, \sqrt{20/3}, 0) \\
+      8 x_4^2 = 40 & \Rightarrow (0, 0, 0, \sqrt{5}) \\
+    \end{cases}
+\end{equation}
+% 
+and the minima:
+% 
+\begin{equation}
+  {\rm Min} =
+    \begin{cases}
+      x_1^4 = 40 & \Rightarrow (-\sqrt[4]{40}, 0, 0, 0) \\
+      4 x_2^2 = 40 & \Rightarrow (0, -\sqrt{10}, 0, 0) \\
+      6 x_3^2 = 40 & \Rightarrow (0, 0, -\sqrt{20/3}, 0) \\
+      8 x_4^2 = 40 & \Rightarrow (0, 0, 0, -\sqrt{5}) \\
+    \end{cases}
+\end{equation}
+% 
+They correspond accordingly to the following hypersurface boundaries:
+% 
+\begin{equation}
+  {\rm Boundaries} =
+    \begin{cases}
+      (-\sqrt[4]{40}, x_2, x_3, x_4),\, (\sqrt[4]{40}, x_2, x_3, x_4) &  \forall\, x_j,\, j \ne 1\\
+      (x_1, -\sqrt{10}, x_3, x_4),\, (x_1, \sqrt{10}, x_3, x_4) &  \forall\, x_j,\, j \ne 2\\
+      (x_1, x_2, -\sqrt{20/3}, x_4),\, (x_1, x_2, \sqrt{20/3}, x_4) &  \forall\, x_j,\, j \ne 3\\
+      (x_1, x_2, x_3, -\sqrt{5}),\, (x_1, x_2, x_3, \sqrt{5}) &  \forall\, x_j,\, j \ne 4\\
+    \end{cases}
+\end{equation}
+
+
+\end{document}
