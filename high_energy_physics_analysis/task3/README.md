@@ -1,6 +1,10 @@
 ## TASK LIST
 
-### 1) Let there be a population $X_i \sim$ iid Uniform($a=0, b=10$), a combined rv is defined as $Y = \frac{1}{n}\sum_{i}^n X_i$. Suppose $n=50$:
+### 1) Let there be a population $X_i \sim$ iid Uniform($a=0, b=10$), a combined rv is defined as $Y$. Suppose $n=50$:
+
+$$
+Y = \frac{1}{n}\sum_{i}^n X_i
+$$
 
 a) Produce $m = 20000$ $y_i$ values that follow a rv $Y$ in order to graphically prove the Central Limit Theorem. Use a histogram to bin $y_i$ values.
 
