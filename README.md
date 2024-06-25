@@ -1,6 +1,7 @@
 # PublicProjects
 This is a public repository showcasing some of my projects.
 
+I'll do my best to keep it updated.
 
 `ResearchWork` folder contains written formatted work in pdf and some presentations.
 
