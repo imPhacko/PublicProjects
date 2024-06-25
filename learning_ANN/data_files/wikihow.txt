@@ -1,0 +1,783 @@
+How to Hack
+In popular media, hackers are often portrayed as villainous characters who illegally gain access to computer systems and networks. In truth, a hacker is simply someone who has a vast understanding of computer systems and networks. Some hackers (called black hats) do indeed use their skills for illegal and unethical purposes. Others do it for the challenge. White hat hackers use their skills to solve problems and strengthen security systems.These hackers use their skills to catch criminals and to fix vulnerabilities in security systems. Even if you have no intention of hacking, it's good to know how hackers operate to avoid becoming a target. If you're ready to dive in and learn the art, this wikiHow teaches you a few tips to help you get started.
+Part
+1
+Learning the Skills Needed to Hack
+Image titled Hack Step 1
+1
+Understand what hacking is. Broadly speaking, hacking refers to a variety of techniques that are used to compromise or gain access to a digital system. This can be a computer, mobile phone or tablet, or an entire network. Hacking involves a variety of specialized skills. Some are very technical. Others are more psychological. There are lots of different types of hackers that are motivated by a variety of different reasons.[1]
+Image titled Hack Step 2
+2
+Understand the ethics of hacking. Despite the ways hackers are depicted in popular culture, hacking is neither good nor bad. It can be used for either. Hackers are simply people who are skilled in technology who like to solve problems and overcome limitations. You can use your skills as a hacker to find solutions to problems, or you can use your skills to create problems and engage in illegal activity.
+Warning: Gaining access to computers that don't belong to you is highly illegal. If you choose to use your hacking skills for such purposes, be aware that there are other hackers out there who use their skills for good (they are called white hat hackers). Some of them get paid big bucks to go after bad hackers (black hat hackers). If they catch you, you will go to jail.
+Image titled Hack Step 3
+3
+Learn how to use the internet and HTML. If you are going to hack, you'll need to know how to use the internet. Not just how to use a web browser, but also how to use advanced search engine techniques. You will also need to know how to create internet content using HTML. Learning HTML will also teach you some good mental habits that will help you with learning to program.[2]
+Image titled Hack Step 4
+4
+Learn how to program. Learning a programming language might take time, so you need to be patient. Focus on learning to think like a programmer instead of learning individual languages. Focus on similar concepts in all programming languages.
+C and C++ are the languages that Linux and Windows were built with. It (along with assembly language) teaches something very important in hacking: how memory works.
+Python and Ruby are high-level, powerful scripting languages that can be used to automate various tasks.
+PHP is worth learning because the majority of web applications use PHP. Perl is a reasonable choice in this field as well.
+Bash scripting is a must. That is how to easily manipulate Unix/Linux systems. You can use Bash to write scripts, which will do most of the job for you.
+Assembly language is a must-know. It is the basic language that your processor understands, and there are multiple variations of it. You can't truly exploit a program if you don't know assembly.
+Image titled Hack Step 5
+5
+Get an open-sourced Unix-based system and learn to use it. There is a wide family of operating systems that are based on Unix, including Linux. The vast majority of web servers on the internet are Unix-based. So you'll need to learn Unix if you want to hack the internet.[3] Also, open-sourced systems like Linux allow you to read and modify the source code so you can tinker with them.
+There are many different distributions of Unix and Linux. The most popular Linux distribution is Ubuntu. You can Install Linux as your primary operating system, or you can create a Linux virtual machine. You can also Dual Boot Windows and Ubuntu.
+Part
+2
+Hacking
+Image titled Hack Step 6
+1
+Secure your machine first. To hack, you must need a system to practice your great hacking skills. However, make sure you have the authorization to attack your target. You can either attack your network, ask for written permission, or set up your laboratory with virtual machines. Attacking a system without permission, no matter its content is illegal and will get you in trouble.
+Boot2root are systems specifically designed to be hacked. You can download these systems online and install them using virtual machine software. You can practice hacking these systems.[4]
+Image titled Hack Step 7
+2
+Know your target. The process of gathering information about your target is known as enumeration. The goal is to establish an active connection with the target and find vulnerabilities that can be used to further exploit the system. There are a variety of tools and techniques that can help with the enumeration process. Enumeration can be performed on a variety of internet protocols including, NetBIOS, SNMP, NTP, LDAP, SMTP, DNS, and Windows and Linux systems. The following is some information you want to gather:[5]
+Usernames and group names.
+Hostnames.
+Network shares and services
+IP tables and routing tables.
+Service settings and audit configurations.
+Applications and banners.
+SNMP and DNS details.
+Image titled Hack Step 8
+3
+Test the target. Can you reach the remote system? While you can use the ping utility (which is included in most operating systems) to see if the target is active, you cannot always trust the results — it relies on the ICMP protocol, which can be easily shut off by paranoid system administrators. You can also use tools to check an email to see what email server it uses.
+You can find hacking tools by searching hacker forums.[6]
+Image titled Hack Step 9
+4
+Run a scan of the ports. You can use a network scanner to run a port scan. This will show you the ports that are open on the machine, the OS, and can even tell you what type of firewall or router they are using so you can plan a course of action.
+Image titled Hack Step 10
+5
+Find a path or open port in the system. Common ports such as FTP (21) and HTTP (80) are often well protected, and possibly only vulnerable to exploits yet to be discovered. Try other TCP and UDP ports that may have been forgotten, such as Telnet and various UDP ports left open for LAN gaming.
+An open port 22 is usually evidence of an SSH (secure shell) service running on the target, which can sometimes be brute-forced.
+Image titled Hack Step 11
+6
+Crack the password or authentication process. There are several methods for cracking a password. They include some of the following:
+Brute Force: A brute force attack simply tries to guess the user's password. This is useful for gaining access to easily-guessed passwords (i.e. password123). Hackers often use tools that rapidly guess different words from a dictionary to try to guess a password. To protect against a brute force attack, avoid using simple words as your password. Make sure to use a combination of letters, numbers, and special characters.
+Social Engineering: For this technique, a hacker will contact a user and trick them into giving out their password. For example, they make a claim they are from the IT department and tell the user they need their password to fix an issue. They may also go dumpster-diving to look for information or try to gain access to a secure room. That is why you should never give your password to anybody, no matter who they claim to be. Always shred any documents that contain personal information.
+Phishing: In this technique, a hacker sends a fake email to a user that appears to be from a person or company the user trusts. The email may contain an attachment that installs spyware or a keylogger. It may also contain a link to a false business website (made by the hacker) that looks authentic. The user is then asked to input their personal information, which the hacker then gains access to. To avoid these scams, don't open emails you don't trust. Always check that a website is secure (includes "HTTPS" in the URL). Log in to business sites directly instead of clicking links in an email.
+ARP Spoofing: In this technique, a hacker uses an app on his smartphone to create a fake Wi-Fi access point that anyone in a public location can sign into. Hackers can give it a name that looks like it belongs to the local establishment. People sign into it thinking they are signing into public Wi-Fi. The app then logs all data transmitted over the internet by the people signed into it. If they sign in to an account using a username and password over an unencrypted connection, the app will store that data and give the hacker access. To avoid becoming a victim of this heist, avoid using public Wi-Fi. If you must use public Wi-Fi, check with the owner of an establishment to make sure you are signing in to the correct internet access point. Check that your connection is encrypted by looking for a padlock in the URL. You can also use a VPN.
+Image titled Hack Step 12
+7
+Get super-user privileges. Most information that will be of vital interest is protected and you need a certain level of authentication to get it. To see all the files on a computer you need super-user privileges—a user account that is given the same privileges as the "root" user in Linux and BSD operating systems. For routers this is the "admin" account by default (unless it has been changed); for Windows, this is the Administrator account. There are a few tricks you can use to gain super-user privileges:
+Buffer Overflow: If you know the memory layout of a system, you can feed it input the buffer cannot store. You can overwrite the code stored in the memory with your code and take control of the system. [7]
+In Unix-like systems, this will happen if the bugged software has setUID bit set to store file permissions. The program will be executed as a different user (super-user for example).
+Image titled Hack Step 13
+8
+Create a backdoor. Once you have gained full control over a machine, it's a good idea to make sure you can come back again. To create a backdoor, you need to install a piece of malware on an important system service, such as the SSH server. This will allow you to bypass the standard authentication system. However, your backdoor may be removed during the next system upgrade.
+An experienced hacker would backdoor the compiler itself, so every compiled software would be a potential way to come back.
+Image titled Hack Step 14
+9
+Cover your tracks. Don't let the administrator know that the system is compromised. Don't make any changes to the website. Don't create more files than you need. Do not create any additional users. Act as quickly as possible. If you patched a server like SSHD, make sure it has your secret password hard-coded. If someone tries to log in with this password, the server should let them in, but shouldn't contain any crucial information.
+How to Introduce Yourself in Class
+Introducing yourself to a class, whether you are the student or the teacher, can feel daunting. Deciding what and how much to share, overcoming anxiety, and presenting yourself as an interesting and engaged person are steps that will help you introduce yourself with confidence, both in a physical classroom or in an online setting.
+1
+Stand up when it’s your turn to introduce yourself. This will make you appear more confident and will help you speak more clearly than if you were to stay seated. It may feel awkward to stand up, but your introduction will be over more quickly than you think.
+If you are sitting in the middle of the room, you may want to turn your head from side to side occasionally as you speak so you can address the entire class.
+2
+Smile when you speak. Even if you are super nervous, smiling will make your voice sound calmer and will help you mask that nervousness. It also shows your classmates and your teacher that you are friendly and approachable. Also, smiling stimulates the production of endorphins, so you are helping yourself to feel a little happier, too!Smile when you speak. Even if you are super nervous, smiling will make your voice sound calmer and will help you mask that nervousness. It also shows your classmates and your teacher that you are friendly and approachable. Also, smiling stimulates the production of endorphins, so you are helping yourself to feel a little happier, too!
+3
+Speak with confidence. Chances are that even if your voice is shaky, others won’t notice that. You want everyone to be able to hear you, so when you introduce yourself, do so in a clear, loud voice. Don’t mumble or stare down at the ground. It’s perfectly okay to be nervous—lots of people are when speaking in front of others! But if you can take a steadying breath and project confidence, you’ll be through your introduction before you know it.
+4
+Give your name first. It’s helpful to give your first name, pause, and then give your first and last name, like "Hello, my name is June, June Thompson." The repetition makes it more likely that others will remember your name.
+5
+Share why you are taking the class. If you’re in a college course, you can share your intended major. Or if you’re taking a class for a certification for a job, you could share what it is you do for work. For example, you could say, "Hi, I’m Mark, Mark Palmer. I’m an Economics major, and this class is helping me get a certification I need to graduate."
+6
+Offer personable details, like hobbies or interests you have. If you are involved in sports or have pets or like to travel, the end of your introduction is a good place to give this information. You could say something like, "When I’m not studying, I like to train for and run in half-marathons." This gives your classmates and teacher a memorable activity to tie to your name.
+
+How to Pack a Pencil Case for School
+Packing and organizing your pencil case for school is the best way to make sure your year will be as stress free as possible. Finding the right pencil case can make packing your supplies even easier. Throughout the year, you will always know where to find anything you need at a moments notice. Bring your best to each class and succeed!
+1
+Start with the necessities. Each school year, students are responsible to bring the same types of supplies with them to class everyday. Though certain classes can call for some variety in supplies, downsize what to pack in your pencil case initially to optimize organization. Here are some necessities you could start with: Two lead pencils, One red pen, one blue pen, one black pen, Sharpener, Protractor, Scissors, Eraser, Glue stick, Highlighter, Calculator, Ruler.
+2
+Pack supplies in order of largest to smallest. Put the items that will take up the most room first at the bottom of your case, such as calculators, scissors, or protractors. This will provide a base for your smaller items, such as pencils, pens, or sharpeners. Your case will be neater and easier to maneuver when looking for a certain item.
+If using a case with a zipper, put the pencil case on its side with the zipper facing left or right. It will be easier to pack your supplies, and will help you to utilize the space inside the case.
+3
+Add or remove supplies when needed. Since you already started with the necessities, adding in supplies based by grade or course should not be too difficult. If you are adding in any loose supplies, keep them contained before packing.
+Elementary school supply lists usually call for colored pencils, crayons, and magic markers. To save space, choose the colors you use most for each, remove them from their box, and wrap each group together with rubber bands.
+Middle or high school supply lists may call for post-it notes. Put the post-it notes in a small zip lock bag. This will make sure none of the notes rip off or get bent in the pencil case.
+4
+Clean out and repack your pencil case periodically. Every month, clean out your pencil case to make it as accessible as possible throughout the year. As the school year progresses, it’s easy to let all of those pencil shavings and notes take over your case. Instead, throw out what you don’t need and replenish.
+Get rid of any broken pencils or crayons. Replace dulling highlighters. Replenish glue sticks and erasers.
+How to Reduce PDF File Size
+This wikiHow teaches you how to make a PDF smaller using a PC or Mac. Adobe, the developers of the PDF file format, provide a free web-based tool that makes it super easy to compress PDFs into smaller files. If you're using a Mac, you can skip the upload and use the Preview app to shrink your file. Or, if you have the professional version of Adobe Acrobat DC, you can use its PDF optimizer to produce a smaller file. All of these apps reduce PDF file sizes by decreasing image and (sometimes) text quality, so keep that in mind when compressing your files.
+Go to https://www.adobe.com/acrobat/online/compress-pdf.html. Adobe offers a free online PDF-compression tool that's great for reducing PDF file sizes.
+Image titled Reduce PDF File Size Step 2
+2
+Click the Select a file button. This opens your computer's file browser.
+Alternatively, you can drag the PDF file to the button to begin uploading the file.
+Image titled Reduce PDF File Size Step 3
+3
+Select your PDF file and click Open. This uploads your PDF to the server.
+Image titled Reduce PDF File Size Step 4
+4
+Select a compression level. The level you select determines how much the file will be compressed, which in turn determines the file's new size.
+The default option, Medium compression, is a good option for files containing images and text. The image quality may reduce a bit to make the file smaller, but the quality will still be pretty good.
+If you want to make the smallest PDF possible, select High compression. This option will definitely reduce the quality of the file, and images won't look too good. But if you're not concerned about image quality and you need a much smaller file, this is the option for you.
+Low compression compresses the file by just a small amount, preserving the quality of images and other details. The file size will reduce slightly, but not by much.
+Image titled Reduce PDF File Size Step 5
+5
+Click the Compress button. This starts the compression process. When the compression is complete, you'll see a success message, as well as the size of the newly-compressed file alongside its previous size.
+Image titled Reduce PDF File Size Step 6
+6
+Click Download to save the compressed file. This saves the smaller version of your PDF to your computer.
+How to Pick a Lock
+Lock picking is an incredibly useful skill and it can be a lifesaver if you lose or forget your keys. With some simple tools and a little patience, you can crack just about any tumbler lock, giving you access to everything from secured doors to closed padlocks.
+1
+Check the condition of the lock. You won't be able to pick a lock if it's broken. Rusted locks may be frozen shut no matter how skillful your lock picking technique is. Investigate the overall condition of a lock before attempting to pick it.[1]
+Rusty locks may be restored to pickable condition with the application of a suitable lubricant, like WD40.
+Image titled Pick a Lock Step 2
+2
+Gather your lock picking supplies. A professional lock picking kit will contain tools like tension wrenches, picks, and raking tools.[2] You'll also need a suitable lock lubricant, like lubricating graphite, which should be available at your local hardware store.[3]
+You can use household items as substitutes for picking tools, like a bobby pin or a paperclip.
+You may need to go to a specialty store, like a spy store or a locksmith, or an online seller to buy a lock picking set.
+Although owning a lock picking set is legal in most regions, if caught by police with these tools on you, there may be laws that require you to prove you weren't intending on committing a crime.
+Image titled Pick a Lock Step 3
+3
+Identify the uses of the three main tools in lock picking. Knowing the uses and names of basic lock picking tools will make it easier to talk about them. This is especially important because pop culture has misrepresented some tools.[4] The three main tools include:
+A tension wrench. Also called a torque wrench, this tool is a thin piece of metal with flared ends. It is L-shaped or Z-shaped, where the diagonal line of the Z is straight. It is inserted into the plug (the part of the lock that turns) to apply tension to it.
+A lock pick. These generally have a handle that narrows to a thin, pointed piece of metal that curves slightly at its end. The pick manipulates the inner parts (pins) of the lock mechanism.
+A rake. These are picks with many ridges. Some rakes may have a triangular point on the end or be rounded. These are scraped across the inside of the lock mechanism (pins) to disengage it.[5]
+Image titled Pick a Lock Step 4
+4
+Envision the lock mechanism. When a key is inserted into the keyway of the plug (the turning part of the lock), the wards (ridges/teeth) of the key push up spring-loaded pins. Each individual lock pin is actually made up of a set: a key pin and driver pin. When the break between each set of key and driver pins aligns with the lock turning mechanism, also called the shearline, the lock turns and opens.[6]
+You won't be able to see inside the lock when picking it, so having a firm mental image of the mechanism is vital.
+The number of pins varies from lock to lock. Padlocks often have 3 or 4, while door locks generally have 5 to 8.
+Some locks, especially those in Europe, are situated with the pins at the bottom of the keyway instead of the top.
+5
+Lubricate the lock. Pins in the lock may be frozen from lack of use. Dirtiness can make the lock mechanism difficult to manipulate. Resolve these problems and give yourself the best chance of picking the lock by applying lock lubricant to it.
+Many kinds of lock lubricant have simple spray applicators that allow you to direct lubricant into the keyway.[7]
+Part
+2
+Solving a Common Tumbler Lock
+1
+Note the main goals of the lock picking process. While applying light pressure with your tension wrench to the keyway, you're going to push up pins inside the keyway with your pick, one by one. When a pin is lifted enough, the tension from the wrench will prevent it from falling and the next pin can be set. When all pins are set, the lock will open.
+2
+Determine the direction the key turns. Insert your tension wrench into the top or bottom of the keyway. Gently turn the wrench to apply torque (tension) to the plug. The plug will turn one way a little more than the other. This is the direction the key turns.
+It's easy to apply too much force to tension wrenches. While getting the feel for picking locks, you may want to only use a single finger to apply tension to the wrench.[8]
+3
+Investigate the pins with your pick. Insert your pick into the keyway. Gently feel the outline of the pins using your pick. Single out one that is accessible. Apply light but slowly increasing pressure to the pick until you feel the springs of the pin give way. Remove the pick.[9]
+Try to hold the image of the pins in your mind. Doing so can help you keep track of solved pin positions should you have to reset the lock and begin picking afresh.
+By applying increasing pressure to a single pin, you can test the resistance of the pin springs. Some may be stiffer than others and require more pressure.
+Generally, the inner workings of locks are relatively delicate. Always err on the side of too little force to prevent accidental lock or pick breaking.
+4
+Apply gentle pressure to the keyway with a tension wrench. Insert your tension wrench into the bottom or top of the keyway. Turn the wrench with gentle pressure. Feel how the plug shifts. Release pressure on the wrench. Repeat this process a few times.[10]
+Your goal, at this point, is to get a sense of the tightness of the plug and to feel for the position where the pins bind in the lock mechanism, freezing it and stopping the plug from turning.
+5
+Identify the binding pin. Apply gentle pressure to the plug again with your tension wrench. Insert a pick into the keyway. Lightly touch the pins with your pick as you apply tension. Release tension on your wrench. Continue this process until you identify one pin that binds (resists) more than others when light tension is applied. This is the first binding pin.
+When you identify the binding pin, maintain steady pressure on your tension wrench. Too much pressure will cause the lock to freeze, too little and the pins will reset.[11]
+6
+Set pins one at a time with your pick. While maintaining consistent pressure with your tension wrench, lift the first binding pin with your pick little by little. Eventually, your tension wrench should turn the plug very slightly. The first pin should now be set in place. Use your pick to find the next pin that binds more than the remaining ones and similarly lift and set it. Repeat this until all pins are set.
+In many common locks, pins will set either front-to-back or back-to-front. However, keep in mind that this is not always the case.
+Lifting a pin slowly will allow it to set more easily. With practice this motion can become significantly more rapid, especially when paired with the later described raking technique.
+Applying too much torque to your tension wrench at any point could cause the lock to freeze. In this case, you'll likely have to relieve pressure on the wrench to reset the pins and start again.[12]
+7
+Open the lock. When the last pin sets, the lock should fully disengage and open. You may have to apply more pressure with your tension wrench to turn the lock open. A little extra force can be applied with the pick if it's still inserted in the keyway, though you should take care not to jostle any pins or damage the pick.[13]
+Part
+3
+Using the Raking Technique
+1
+Feel out the lock with your tension wrench and pick. Much as you would normally, get a feel for the plug with your tension wrench. Insert your pick into the keyway and lightly feel the position of pins. Press a single pin to test pin spring stiffness.
+Though the raking technique is generally faster for knowledgeable lock pickers, it operates on the principles of picking a single pin at a time, and will be easiest for those with some experience picking pins one by one.
+2
+Rake the pins with a rake-tool. A normal pick or a rake can be used to perform this maneuver. Apply light, steady pressure to the plug with your tension wrench. Insert your rake-tool into the keyway slowly and smoothly. Draw the tool upwards and out of the keyway in a snap.
+When drawing your rake-tool out of the keyway, the pressure applied by the tool should be on its tip only.
+Your pick should be long enough so that it comes in contact with every pin in the lock while raking.[14]
+3
+Listen for pins falling. Raking usually takes multiple attempts before it is successful. After raking, listen carefully to the lock when relieving pressure on your tension wrench. The sound of pins falling indicates you're using the correct pressure with your tension wrench.
+4
+Draw your rake-tool back and forth along unset pins. Rake the pins as described previously. While keeping pressure consistent with your tension wrench, use the tip of the tool to "scrub" unset pins. If the pins refuse to set, release pressure with your wrench and start again. Continue until the lock disengages and opens.[15]
+When most of the pins are set, you may need to increase the pressure on your tension wrench and lightly intensify scrubbing.
+How to Lower Blood Pressure
+If you've been diagnosed with high blood pressure (also called hypertension), you're probably looking for techniques to decrease your blood pressure (bp) and reduce your risk of heart disease and stroke. Fortunately, there are many ways to naturally lower bp. From tweaking your diet and exercise routine to reducing stress, we've got the best expert advice on how to control high blood pressure.
+Eating on the DASH DietDownload Article
+Image titled Lower Blood Pressure Step 1
+1
+Lower your sodium intake. Many people eat as much as 3,500 mg of sodium per day. The DASH diet, which is short for Dietary Approaches to Stop Hypertension, recommends no more than 2,300 mg of sodium per day. Sodium is in salt, so the best way to reduce your sodium intake is to eat less salt. You can do this by:[1]
+Not adding table salt to your food. This may also include reducing the amount of salt you use when cooking. Easy ways to do this include not salting meats and not adding salt to the water when you cook rice or pasta.
+Avoiding salty snacks and processed food such as chips, pretzels, and salted nuts. They often have large amounts of salt added to them. If you do purchase prepared foods, look to see if you can get a low-salt version. Check the contents of canned food, premixed seasonings, bouillon cubes, canned soups, jerkies, and sports drinks to see if they have salt added to them.
+Image titled Lower Blood Pressure Step 2
+2
+Eat six to eight servings of grains per day. Whole grains are better than processed white rice or processed white flour because they have more fiber and nutrients. A serving is a slice of bread or a half a cup of cooked rice or pasta. You can eat more whole grains by:[2]
+Buying whole wheat flour and pasta instead of white. Many whole wheat bread products will say on the packaging that they are whole wheat.
+Oatmeal and brown rice are also excellent sources of nutrients and fiber.
+Image titled Lower Blood Pressure Step 3
+3
+Load up on fruits and vegetables. You should eat four to five servings of fruit and four to five servings of vegetables each day. A serving is a half a cup of leafy vegetables or a ½ cup of cooked vegetables. Fruits and vegetables are great sources of potassium and magnesium which help to lower your blood pressure. Excellent ways to get your fruits and vegetables include:[3]
+Eating salads with your meals. You can keep them interesting by varying what you put in them. You can add a sweet element by putting apple or orange slices on a salad. Leave on the peels of thin-skinned fruits like apples because they also contain nutrients. You can also go more traditional with fresh greens, carrots, and tomatoes. But go easy on the salad dressings: they often have a lot of salt and fatty oils.
+Making vegetables a side dish. Instead of cooking pasta, try putting the main dish over a sweet potato or next to a side of squash.
+Snacking on fruits and vegetables between meals. Take an apple, banana, carrot, cucumber or green pepper with you to work or school.
+Buying fresh and frozen vegetables. If you are worried about having fresh produce go bad before you eat it, frozen vegetables are an excellent choice. You can put them in the freezer until you need them and when you thaw them, they will still be packed with nutrients.
+Image titled Lower Blood Pressure Step 4
+4
+Add low-fat dairy products. Dairy is an important source of calcium and vitamin D, but it is important to choose carefully to avoid eating too much fat and salt. A cup is a serving. Aim for two to three servings per day.[4]
+Cheese is often high in salt, so eat it sparingly.
+When you eat yogurt and drink milk, go for the low-fat or skim varieties. Both are great with whole-grain cereals for breakfast.
+Image titled Lower Blood Pressure Step 5
+5
+Eat lean meat, poultry and fish in moderation. Meats and fish are excellent sources of protein, vitamins, iron and zinc, but some kinds can be high in fat and cholesterol. Since fat and cholesterol can clog your arteries, it is best not to eat too much. Eat no more than six servings per day. A serving is an ounce of meat or an egg.[5]
+Avoid fatty red meats, and if you do eat them, cut the fat off as much as possible. When you cook, don’t fry your meats. Healthier alternatives include baking, grilling, or roasting.
+Salmon, herring and tuna are great sources of omega-3 fatty acids. Eating these fish can help control your cholesterol, and they are high in protein.
+Image titled Lower Blood Pressure Step 6
+6
+Control your fat consumption. Fat increases your risk of heart disease. To protect your heart, restrict your fat intake to a maximum of three servings per day. A tablespoon of butter is a serving. Easy ways to reduce your fat intake include:[6]
+Not spreading butter or mayonnaise on bread. Also, you can reduce the amount of oil you cook with. Substitute skim milk for whole milk and avoid heavy cream, lard, solid shortenings, palm and coconut oils.
+Image titled Lower Blood Pressure Step 7
+7
+Supplement your diet with nuts, seeds, and legumes. They are relatively high in fat, but they also have magnesium, potassium, fiber, and protein. Because of this, the DASH diet recommends eating only four or five servings per week. A serving is 1/3 of a cup of nuts.
+Nuts and seeds make an excellent addition to salads or, when unsalted, a healthy snack.
+For vegetarians, tofu is an excellent meat substitute because it is high in protein.
+Image titled Lower Blood Pressure Step 8
+8
+Restrict your sugar consumption. Processed sugars add calories to your diet without providing you with the nutrients that will make you feel satisfied. Reduce your consumption of sweets to, at most, five per week. A serving is a tablespoon of sugar or jelly.[7]
+You can use artificial sweeteners like Splenda, NutraSweet, and Equal, but use them sparingly.
+Method
+2
+Making Lifestyle ChangesDownload Article
+Image titled Lower Blood Pressure Step 9
+1
+Exercise. Being physically active can lower your blood pressure by helping to control your weight and manage stress.[8]
+For the best results try to do 75–150 minutes of physical activity per week. You can choose what you like to do best. Great options include walking, running, dancing, biking, swimming, and playing sports such as basketball or soccer.
+Do strength training, such as weight lifting, twice a week to maintain bone density and build muscle.
+Image titled Lower Blood Pressure Step 10
+2
+Reduce your alcohol intake. Alcohol abuse is bad for your heart. Also, alcoholic beverages are high in calories and make you more prone to obesity. You can lower your blood pressure by quitting drinking or drinking only in moderation.[9]
+Men over 65 and women should limit themselves to, at most, one drink per day.
+Men under 65 should have no more than two drinks per day.
+A 12 oz beer, 5 oz glass of wine, or 1.5 oz of hard liquor qualifies as a drink.
+Image titled Lower Blood Pressure Step 11
+3
+Don’t smoke or chew tobacco. Using tobacco can harden your arteries and cause them to become narrower, which will increase your blood pressure. Secondhand smoke also causes these effects. There are many resources available to help you quit smoking:[10][11]
+Talking to your doctor or seeing a counselor
+Joining support groups or calling hotlines
+Using medications or nicotine replacement therapy
+Image titled Lower Blood Pressure Step 12
+4
+Evaluate your medications and don’t use street drugs. If you think your medications might be causing high blood pressure, consult your doctor. Your doctor may be able to help you find a medication that is more suitable for you. Don’t stop taking your medications without clearing it with your doctor first. The following substances and medications may increase blood pressure:[12]
+Cocaine, crystal methamphetamines, and amphetamines
+Some birth control pills
+Some decongestants and cold medications
+Over-the-counter nonsteroidal anti-inflammatory drugs (Ibuprofen and others)
+Image titled Lower Blood Pressure Step 13
+5
+Reduce your stress. While stress is an unavoidable part of life, you can use relaxation techniques to help you deal with it better. Common techniques include:[13]
+Yoga
+Meditation
+Music or art therapy
+Deep Breathing
+Visualizing calming images
+Progressively tensing and relaxing each muscle group in your body
+Method
+3
+Seeing a DoctorDownload Article
+Image titled Lower Blood Pressure Step 14
+1
+Call emergency medical responders if you think you might be having a heart attack or stroke. Both are emergencies and every minute counts.
+Signs of a heart attack include pressure or pain the chest, pain in one or both arms, neck, back, jaw, or abdomen, shortness of breath, sweating, nausea, or dizziness. In some, sudden onset reflux symptoms or pain just below the sternum may be experienced. Both men and women are vulnerable to heart attacks.[14]
+Symptoms of a stroke include: drooping face, difficulty speaking or understanding speech, numbness or weakness in an arm, leg, or the face, confusion, vision problems in one or both eyes, dizziness, loss of coordination, headache, [15]
+Image titled Lower Blood Pressure Step 15
+2
+Go to the emergency room if you have symptoms of high blood pressure. Most people do not have symptoms, so the best way to find out is to get your blood pressure checked every year at your annual checkup. That being said, when people show symptoms, they may include:[16]
+Headaches that don’t go away
+Blurred vision or seeing double
+Frequent nosebleeds
+Shortness of breath
+Image titled Lower Blood Pressure Step 16
+3
+Take medications if your doctor feels it is needed. It is imperative to take the medications following your doctor’s instructions. If you skip doses or don’t take them correctly, they may not be effective. Your doctor may prescribe:[17]
+ACE inhibitors. ACE stands for Angiotensin-converting enzyme. This medication relaxes your blood vessels. It may give you a cough as a side effect. It can interact with other medications, including over-the-counter medications. Don’t take any other medications, including over-the-counter medications, supplements, and herbal remedies without consulting your doctor first.
+Calcium channel blockers. This medication widens your arteries. Ask your doctor about side effects and interactions.
+Diuretics. These medications reduce your salt levels by causing you to urinate.
+Beta-blockers. These medications slow your heartbeat and make it less forceful. This is generally a last resort for when other medications and lifestyle changes have not been sufficient.
+How to Shoot a Basketball
+Knowing how to shoot a basketball correctly is the most important skill you need to master in order to play the game. At its heart, basketball is a simple game. You need to be able to put the ball in the hoop. As basketball has progressed at the highest levels it has become more and more important to be able to shoot the ball from long distance. You may not have been born gifted with incredible height, but your ability to shoot is something you can control. With the right form and habits you will be well ahead of the game!
+Having the Right Stance
+Image titled Shoot a Basketball Step 1
+1
+Keep your feet no further than shoulder width apart, preferably closer together, and slightly staggered.[1] You should put your shooting foot very slightly ahead of your non-shooting foot. Your shooting foot is the foot on the same side as your shooting arm – if you’re right handed, it will be your right foot. Your feet should be turned 10 to 45 degrees towards your off hand side, and your shoulder, hip, and elbow should be aligned with the basket.
+2
+Flex your knees slightly. Locking your knees makes it easy for you to get knocked off balance. Flex your knees comfortably so you're in position to jump as soon as you have the ball.
+Keep your stance in mind as you learn the art of shooting and begin to practice. Once you find the stance that suits you best, use it every single time. The goal is to get so used to the stance that you don't have to think about it before your feet take the right position to let a great shot fly.
+3
+Turn more in the air and jump forward, keeping your shoulders back, if you need to shoot a longer shot. Your power mostly comes from your turn and your shoulders being relaxed. Your shot will be much less accurate and fluid if you try to fling the ball forward using power in your chest and arms. Practice jumping from 0 to 90 degrees without the ball to practice your turn. Make sure you are jumping forward and that your shoulders are back and relaxed.
+Part
+2
+Holding the Ball Correctly
+1
+Dip the ball down to your waist or thigh. The ball and your shooting eye should form a straight line to the basket.
+2
+Position your elbow so it's inline with your shoulder, not directly under the ball.[2] Learn to position the ball in this same place every single time you get ready to take a shot. When someone passes you the ball, dip it to your waist or thigh. If you catch a bounce pass or another low pass, or are shooting off the dribble, you don't need to dip, as you are already in a dipping motion.
+Also, if you are right-handed, keep your left hand on the side on the line and your right hand holding the back of the ball firmly in place. Use your hand that you write with to shoot with. Your other hand is just for the guide. If you are left-handed, do the opposite.
+Image titled Shoot a Basketball Step 6
+3
+Grip the ball correctly. Position your shooting hand so that your fingertips are perpendicular to the seams in the ball.[3] This hand is responsible for launching the ball. Place your non-shooting hand on the side of the ball to act as a guide for the shot. Your palm may or may not be touching the ball while you’re preparing to shoot - you may have control of the ball with your fingers and thumb.
+Leave a little space between your palm and the ball, so the ball will be able to roll off your fingertips with ease. The ball should sit on your finger pads. Spread your fingers wide so you have greater control over the ball.
+Part
+3
+Taking the Shot
+Image titled Shoot a Basketball Step 7
+1
+Locate the target. If you want the ball to go into the net, then you need to look at the net. If you’re planning to bank the ball in off the backboard, then look at the spot on the backboard you want to hit. Your eyes are an incredibly important part of a good shot in basketball. Once you release, you may either follow the flight of the ball (which is common among great NBA shooters) or continue to look at the rim.[4]
+2
+Straighten your knees and jump. Use your legs to help propel the ball by jumping upward while your shooting hand launches the ball and your shoulders lean back. Move your legs, torso, and arms together in a coordinated fashion to take the shot.
+3
+Jump slightly forward when you shoot, making sure your shoulders lean back and are relaxed. Your feet shouldn't land in the same position where they started because it will cause a lot of tension in your neck and shoulders. Jumping forward will also give your ball more arc.
+Don't lean forward as you jump. If your body is balanced, you should jump in a natural motion, it will cause your shot to be balanced and relieve tension.
+4
+Push the ball upward with your shooting hand. As your hips rise up and you start your jumping motion, move the ball in a smooth motion from your dip to eye level. It should all be one smooth motion. Your hips rise as your elbow rises with the ball, and you should turn anywhere from 20-90 degrees towards your off hand.
+Don't let the ball go behind your head or off to the side. Shoot it in a fluid, forward motion. Your non-shooting hand serves only to guide the ball and to keep it steady while your shooting hand exerts force.
+5
+Release the ball. Just before you reach the height of your jump, release the ball, with your shooting hand aimed at the basket. Straighten your elbow and push your wrist so that the ball arches, rather than moving toward the basket in a straight line. As you release the ball, your guiding hand should move to lightly touch your shooting arm just below the wrist.
+Roll the ball off your fingertips toward the basket. You can tell whether you shot it properly by looking at the backspin; if the lines of the basketball spin symmetrically, you positioned the ball properly.[5]
+6
+Follow through. This is a hugely important part of shooting a basketball. If you shoot from your wrist without following through the shot won’t be nearly as accurate. When the shot is complete, your shooting hand will resemble the shape of a swan; your arm is arched elegantly toward the basket, with your hand loosely cocked downward and your fingers pointed toward the hoop. This is called follow through.
+Part
+4
+Perfecting Your Technique
+Image titled Shoot a Basketball Step 13
+1
+Develop muscle memory.[6] Basketball is a fast-paced game, and you won't have time to think about the mechanics of shooting while the clock is running down and your opponents are trying to steal the ball from you. It's important to practice shooting as much as you can, so that taking a shot - from the stance and grip to the jump and release - feels natural.
+Practice from many angles. Shoot from all sides of the basket and from a variety of distances, using the same form every single time, whether you're shooting from the 3-point line or closer to the basket. However, you should turn more and jump farther forward for a longer shot than a shorter one.
+2
+Practice free throws. Free throws, or foul shots, are taken from the free throw line, located 15 feet (4.6 m) from the basket. It's a good distance to practice from, and since it's located in front of the backboard behind the basket, the ball will usually bounce back to you and you won't have to chase after it as frequently.
+3
+Start to use the backboard. The backboard can be a useful tool, especially for shots you take close to the basket. Depending on where you are on the court you’ll need to bank the ball off the backboard in different ways. Generally, if you are on the right side of the court you’ll aim for the top right corner of the square on the backboard. If you are on the left side of the court you’ll aim for the top left corner of the square.
+Use the backboard when you shoot layups, which are taken off the dribble rather than from a standing position.
+Image titled Shoot a Basketball Step 16
+4
+Practice in a game setting. After you're comfortable shooting on your own, get some friends together to have a basketball scrimmage, or join a league so you can play some games. Shooting during the pressure of a game is a little harder than doing it by yourself in your backyard, since you have to catch passes, dodge steals and be aware of the strategy your coach and the other players expect you to employ. However, if you practice the right form and develop good muscle memory, you'll be racking up the points in no time.
+How to Obtain Your FBI File
+An FBI file is a record of information pertaining to arrests, investigations, federal employment, naturalization, or military service. The FBI does not keep a file on everyone, but some people may have a file if they have been a victim in a case or an authorized third party has requested information about them. The FBI also has files of individuals, organizations, and businesses currently or previously under investigation. You can request your FBI file through either a Freedom of Information Act Request or a Privacy Act Request. If your request is denied, you can appeal that decision.
+Method
+1
+Submitting a Freedom of Information Act Request (FOIA)
+Image titled Obtain Your FBI File Step 1
+1
+Draft a FOIA request. When requesting your personal FBI records through the Freedom of Information Act, you must draft a detailed letter specifically requesting the information that you desire and any information that can help the FBI identify the records. This letter should include the following:
+Date
+Address: Record/Information Dissemination Section Attn: FOIPA Request 170 Marcel Drive Winchester, VA 22602-4843
+Identifying the request as under the Freedom of Information Act.
+Date range of the request. You can make the request from your date of birth to the present.
+Description of the request. Request copies of all information, including but not limited to files, correspondence, reports, surveillance or any other records concerning you.
+Provide information to assist in the search. You should give your name, date of birth, social security number, place of birth and the first and last names of your parents, any aliases that you use, and former addresses.
+Description of the scope of search, including the FBI’s indices, including manual indices, as well as all Field Offices.
+Indicate a dollar amount that you are willing to pay for processing the request.
+State that you are seeking the information for personal use and not for commercial use.
+Provide your name, address, phone number and email address.[1]
+You can view a sample letter at:https://www.fbi.gov/foia/sample-fbi-foia-request-letter
+Image titled Obtain Your FBI File Step 2
+2
+Submit your request. Since you are requesting FBI records for a living person, you must submit your request either by mail, fax or e-mail.
+You can mail your letter to: Federal Bureau of Investigation, Attn: FOI/PA Request, Record/Information Dissemination Section, 170 Marcel Drive, Winchester, VA 22602-4843. 
+You can fax your request to: (540) 868-4391/4997
+You can email a PDF of your request to: foiparequest@ic.fbi.gov. In addition to the PDF, you should put your request in the body of the email.[2]
+Image titled Obtain Your FBI File Step 3
+3
+Check the status of the request. You can check the status of your request my calling FOIA’s Public Information Officer at (540) 868-4593.
+If you have a FOIA request number, you can also check your request status online at: http://vault.fbi.gov/fdps-1/@@search-fdps.
+Image titled Obtain Your FBI File Step 4
+4
+Wait to be contacted. If you have an extremely large file, your may be contacted by a negotiator to help narrow down the search parameters. Once the search is complete, you will receive a letter explaining any exemptions that were used to justify not sending you certain records, as well as a copy of the records that were not exempted.
+The letter will also indicate the number of pages that were reviewed and the number of pages that were released to you.
+Method
+2
+Making a Privacy Act Request
+Image titled Obtain Your FBI File Step 5
+1
+Complete Certification of Identify Form. The U.S. Department of Justice (DOJ) provides the Certification of Identify Form as a way for an individual to request all records in the U.S. Department of Justice system related to him or herself. Complete the fillable form by typing in all requested information.
+You can save the completed form as a PDF or print the completed form.
+Image titled Obtain Your FBI File Step 6
+2
+Draft a letter request, in the alternative. If you prefer to draft a letter request instead of using the Certification of Identify Form, the DOJ will also accept a letter. You letter must include the following information:
+The full name of the requestor.
+Your citizenship status and social security number.
+Your current address.
+Your date of birth and place of birth.
+You must also include the following oath: I declare under penalty of perjury under the laws of the United States of America that the foregoing is true and correct, and that I am the person named above, and I understand that any falsification of this statement is punishable under the provisions of 18 U.S.C. Section 1001 by a fine of not more than $10,000 or by imprisonment of not more than five years or both, and that requesting or obtaining any record(s) under false pretenses is punishable under the provisions of 5 U.S.C. 552a(i)(3) by a fine of not more than $5,000.
+You must print your name, sign, and date the document.[3]
+Image titled Obtain Your FBI File Step 7
+3
+Submit the form or letter. You can submit your form or letter via mail, fax or email.
+You can mail your letter to: Federal Bureau of Investigation, Attn: FOI/PA Request, Record Information Dissemination Section, 170 Marcel Drive  Winchester, VA 22602-4843.
+You can fax your letter to: (540) 868-4391/4997
+You can email a scanned copy of your signed letter or signed form to: foiparequest@ic.fbi.gov.
+Image titled Obtain Your FBI File Step 8
+4
+Wait for response. The FBI processing center will send you a letter that includes your requested materials and if applicable, a list of reasons (exemptions) justifying why certain materials were not released to you.
+You can check the status of your request by calling (540) 868-4593, or if you have a FOIA request number, you can check the status of your request online at: https://vault.fbi.gov/fdps-1/@@search-fdps.[4]
+Method
+3
+Appealing a DOJ Response
+Image titled Obtain Your FBI File Step 9
+1
+Review the DOJ’s letter. If you are unsatisfied with the DOJ’s response to either your FOIA or Privacy Act requests, you can file an administrative appeal. One reason you may be dissatisfied is if the DOJ did not release all of the records to you but instead held them back and cited an exemption. The DOJ’s describes their exemptions as follows:
+Classified national defense and foreign relations information;
+Internal agency personnel rules and practices;
+Information that is prohibited from disclosure by another federal law;
+Trade secrets and other confidential or privileged commercial or financial information;
+Inter-agency or intra-agency communications that are protected by legal privileges;
+Information involving matters of personal privacy;
+Records or information compiled for law enforcement purposes, to the extent that the production of those records:
+could reasonably be expected to interfere with enforcement proceedings; would deprive a person of a right to a fair trial or an impartial adjudication;
+could reasonably be expected to constitute an unwarranted invasion of personal privacy;
+could reasonably be expected to disclose the identity of and/or information provided by a confidential source;
+would disclose techniques and procedures for law enforcement investigations or prosecutions, or would disclose guidelines for law enforcement investigations or prosecutions; or
+could reasonably be expected to endanger the life or physical safety of any individual;
+information relating to the supervision of financial institutions; and
+geological information on wells.[5]
+Image titled Obtain Your FBI File Step 10
+2
+Draft your appeal. Your appeal must be a persuasive argument setting forth the reasons for your appeal, and why the DOJ was incorrect in making its determination. Specifically, your letter should include the following:
+Address of the Agency to whom you are submitting your appeal: Freedom of Information Appeal  Office of Information Policy  U.S. Department of Justice  Suite 11050  1425 New York Avenue, N.W.  Washington, D.C. 20530-0001
+Subject line that states: FOIA Appeal and/or Privacy Act Request Appeal
+The date that you made the request, to whom you submitted the request and a brief description of what you requested.
+State that the reason why the agency denied your request (whatever exemptions the agency cited).
+Provide a brief argument as why the agency was incorrect. You should provide specific arguments for each exemption cited. You can find guidance on the exemptions and policy reasons to release the information in the Federal Open Government Guide located at: www.rcfp.org/fogg/index.php?i=ex1.
+Restate that you are requesting the information for personal use and the information is about you.
+Sign and date the letter.
+You can find sample appeal letters and an appeal letter template at: http://www.rcfp.org/federal-foia-appeals-guide/sample-appeal-letters-and-templates.[6]
+Image titled Obtain Your FBI File Step 11
+3
+Submit your appeal. You can mail a hard copy of your appeal to: Freedom of Information Appeal  Office of Information Policy  U.S. Department of Justice  Suite 11050  1425 New York Avenue, N.W.  Washington, D.C. 20530-0001.
+You must submit your appeal within 60 days of the date of the letter you received releasing your information to you.
+Image titled Obtain Your FBI File Step 12
+4
+Wait for a decision. You will receive a letter with the agency’s decision about your appeal. If they agree with you, they may send you the documents or raise additional exemptions or concerns. If they deny your appeal, you cannot appeal any further.
+If you are still dissatisfied with the agency’s decision, you could consider filing a lawsuit and having a judge decide on the issues.
+This could be a costly and time-consuming process and you should contact an attorney experienced in handling FOIA disputes.
+How to Unclog a Toilet
+Clogged toilet stressing you out? We've got tons of fast ways for you to clear that pesky toilet clog, all without calling a plumber. Read on to learn how to plunge a toilet, make a DIY drain cleaner, try commercial drain cleaners and enzyme products, use a plumbing snake (or coat hanger!), or suck out that clog with a wet/dry vacuum. Your toilet will be back in business in no time.
+Method
+1
+Plunging the Toilet
+Image titled Unclog a Toilet Step 5
+1
+Insert the plunger into the toilet bowl. Make sure the plunger completely covers the hole.[1] Submerge the plunger fully in the water so that you can push and pull water through the opening, not air.
+Add water from the bathroom sink to the bowl if there isn’t enough water to cover the plunger.
+Image titled Unclog a Toilet (test) Step 2
+2
+Pump the plunger over the hole. Start slowly at first, since the first plunge will push air into the bowl. Push down, then pull up sharply to disturb the clog and loosen it. Continue vigorously pushing and pulling until the water begins to drain.[2] It may take 15 to 20 cycles before the toilet unclogs.
+Be patient. As long as you don't have a hard object (like a kid's toy) stuck in there, plunging alone often suffices. It might not work immediately but will often work after a few dozen plunge cycles.
+Image titled Unclog a Toilet Step 6
+3
+Flush the toilet to check the drainage. If the plunging eventually drains the bowl, but the clog is still blocking a free flow down the drain, leave the plunger in the bowl and fill the bowl with water again. Fill it to the point it is normally after a regular flush, then plunge again. Stubborn clogs might require you to do this a number of times.[3]
+Flush the toilet 2-4 times once you’re done plunging to move the blockage through the sewer system.[4]
+Method
+2
+Making a Drain Cleaner
+Image titled Unclog a Toilet Step 9
+1
+Heat half a gallon of water. If the toilet tends to clog easily as the result of trying to flush too much waste, using a combination of hot water, baking soda and vinegar will often do the job as well as a commercial drain cleaner. Boil half a gallon of water, then let it cool for a moment while you add other ingredients to the toilet bowl.
+Use at least half a gallon. A small amount of water won't work, since it won't have enough force to push through the clog.
+The water should be no hotter than a hot tea you can drink comfortably. It should not be boiling, since very hot water can crack porcelain. You want to raise the temperature of the water passing around or pressing on the clog.
+Image titled Unclog a Toilet Step 10
+2
+Pour 1 cup baking soda and 2 cups vinegar into the toilet. The baking soda and vinegar create a chemical process that help to dissolve clogs. Distilled white vinegar is commonly used, but any type of vinegar will work. The mixture will fizz a great deal. [5]
+If you don't have baking soda and vinegar on hand, try adding a few squirts of dish soap to the toilet bowl. The soap may help to loosen the clog. [6]
+This method isn't likely to work for clogs caused by a hard obstruction, such as a toy.
+Image titled Unclog a Toilet Step 11
+3
+Pour the hot water into the bowl. Pour it from waist level, rather than right near the rim. The force of the water falling into the bowl can help to clear the clog.
+Image titled Unclog a Toilet Step 12
+4
+Let the mixture stand overnight. In the morning, the water should have drained. This homemade drain cleaner should successfully clear clogs caused by organic material. If the water won't flush on your second try, you may have hard obstruction causing the clog. Try using a wire coat hanger or a drain snake.
+Method
+3
+Using a Chemical Drain Cleaner
+Image titled Unclog a Toilet Step 20
+1
+Purchase a chemical drain cleaner. They're available at most grocery, hardware, and "big box" stores. Use this method only if the other methods didn't work. The chemicals that are used in drain cleaners may be toxic for you and others. Also, chlorinated drain cleaners are very damaging to the environment[7] .[8]
+If you suspect that there is a hard obstruction, do not use a chemical solution. Instead, use a snake or call a plumber.
+Only use chemical drain cleaners that are specifically made for toilets. Using other drain cleaners may damage your toilet.
+Image titled Unclog a Toilet Step 21
+2
+Pour the specified amount into the toilet. Be sure you follow the manufacturer's instructions. Keep the lid down to prevent toxic fumes from filling your bathroom.[9]
+Never use a plunger right after adding drain-cleaning chemicals. These chemicals could possibly shoot back up onto your skin.
+Make sure the bathroom is well ventilated, so you won't inhale potentially dangerous chemicals.
+Method
+4
+Trying an Enzyme Product
+Image titled Unclog a Toilet Step 7
+1
+Purchase an enzyme waste removal product. Look for a product that contains a mixture of enzymes that liquify waste materials. These enzymes are used in septic systems to break down waste.[10]
+Products of this sort can be usually be purchased at home improvement stores in or near the plumbing aisle. Enzyme waste removal is preferable to using a drain-clearing chemical because it will not harm your pipes or the environment.[11]
+This method will only work on organic waste, not toys or other objects.
+Image titled Unclog a Toilet Step 8
+2
+Follow the instructions on the container. Pour the recommended amount of the enzyme product into the toilet bowl. You will typically be instructed to wait overnight for the enzymes to go to work on the clog.[12] The toilet should drain once the clog has cleared.
+Method
+5
+Using a Plumbing Snake
+Image titled Unclog a Toilet Step 13
+1
+Purchase or borrow a plumbing snake. A plumbing snake (also sometimes called a "flexible cleaning tool" or "auger") is a flexible coil of wire that can "snake" through the curves of a drain and get deeper than a wire can. The best snake is a "closet auger" which is designed specifically to clear toilet clogs without damaging or staining the bowl.[13]
+Image titled Unclog a Toilet Step 14
+2
+Insert one end of the snake into the drain. Push down, feeding the snake further into the drain until you feel an obstruction.
+Image titled Unclog a Toilet Step 15
+3
+Twist and push the snake through the obstruction. The goal is to break up the obstruction into smaller pieces that can move through the pipes. It may take a few minutes of maneuvering to clear the obstruction. Once the water drains, flush the toilet to see whether it drains as quickly as normal.[14]
+Crank the handle on an auger to push the wire through the clog.
+Image titled Unclog a Toilet Step 16
+4
+Snake in reverse. It may become necessary to remove the toilet and run the snake through in the opposite direction. This is especially true with hard obstructions that may have been flushed by a curious child. If the obstruction is known to be hard and you are not comfortable removing and replacing the toilet, contact a plumber.
+Method
+6
+Making a Wire Coat Hanger Snake
+Image titled Unclog a Toilet Step 17
+1
+Unravel and straighten a wire coat hanger. Then wrap the end of the wire with a rag. Use duct tape to keep the rag in place. This will prevent the sharp end from damaging the porcelain in your toilet. The wire hanger method will generally work only if there is an obstruction in the first few inches of the drain.[15]
+Image titled Unclog a Toilet Step 18
+2
+Stick the wrapped end of the wire into the drain. Once the wire is in the drain, twist it, push it, and maneuver it in a circular motion to clear the drain. If you can feel the obstruction, push against it. Keep going until the water begins to drain.[16]
+Make sure you're wearing rubber gloves as you do this. You may get splashed as you move the wire around.
+If you can't feel an obstruction, and the toilet won't drain, the clog must be out of reach of the hanger. Try the plumbing snake method to clear it.
+Image titled Unclog a Toilet Step 19
+3
+Flush the toilet once the water has drained. The obstruction and dirty water should now be able to flow through the drain like normal. If the toilet is still slow to drain, the obstruction may have gotten pushed further back, out of reach of the hanger. In this case you'll need to use a plumbing snake to clear it.[17]
+Method
+7
+Utilizing a Wet/Dry Vacuum
+Image titled Unclog a Toilet Step 22
+1
+Buy or borrow a wet/dry vacuum. If you have tried plunging and snaking to no avail, consider using a wet/dry vacuum. Do not use an ordinary vacuum cleaner––it must be the wet/dry variety that can cope with water.[18]
+Image titled Unclog a Toilet Step 23
+2
+Empty the water out of the bowl using the vacuum. The bowl must be free of water and any other debris in order to vacuum out the obstruction.[19]
+Image titled Unclog a Toilet Step 24
+3
+Place the end of the vacuum hose into the drain and turn on the vacuum. Push it into the toilet bowl a few inches into the hole. Use just the flexible hose, rather than an attachment. Coil an old towel around the hole to create a seal around the drain. There’s a good chance the vacuum can suck out the clog.
+How to Tell if a Mirror Is Two Way or Not
+Have you ever been in a bathroom, dressing room or another private area with a mirror and had that feeling that someone is watching you? You can check to see if a mirror is transparent by observing how it is installed and using a few simple techniques to determine if there's a wall behind it. You may have heard about the fingernail test but there are more accurate ways to tell if a mirror is two-way or not.
+Part
+1
+Considering the Location
+Image titled Tell if a Mirror Is Two Way or Not Step 1
+1
+Observe how the mirror is installed. Notice if the mirror seems to be hanging on the wall or if it's part of the wall itself. If it appears to be hanging, try to look behind it and see a wall. If the mirror seems to be part of the wall itself, there's a good chance it's a two-way mirror, which must be set into the wall rather than hung onto it. That way, people standing on the other side of the wall can observe someone looking in the mirror.[1]
+A two-way mirror is a piece of glass coated with a substance called micro pane. If you stand on the treated side, you see your reflection but the untreated side looks like a tinted window.
+If you see a wall behind the mirror, it's a good bet that it's nothing more than a regular mirror.
+Image titled Tell if a Mirror Is Two Way or Not Step 2
+2
+Check out the lighting. Look around and determine whether the lighting seems extraordinarily bright. If so, you might be looking at a two-way mirror. However, if the light in the room is relatively dim, and you can't immediately see through the mirror, it's probably just a standard mirror.[2]
+For a two-way mirror to be effective, the light on the mirrored side needs to be 10 times brighter than the light on the other side. If the lighting is any dimmer, it's possible to see through the glass to the observation area.
+Image titled Tell if a Mirror Is Two Way or Not Step 3
+3
+Consider where you are. If you're in a public place and in an area where you'd expect privacy, such as a restroom, it's unlikely and illegal to have a two-way mirror. On the other hand, two-way mirrors are frequently used by law enforcement. For example, two-way mirrors are used in interrogation rooms and for lineups.
+The use of two-way mirrors is closely tied to issues of personal privacy and Constitutional rights. Most states have passed additional legislation preventing the use of two-way mirrors in rest rooms, locker rooms, showers, fitting rooms and hotel rooms.[3] If a location has chosen to use two-way mirrors for surveillance, they are required to post signs that notify you.[4]
+Many places, such as gas stations, will use one way metal mirrors because glass mirrors can be destroyed by users. If the mirror in question is metal, then it is not a two-way mirror.
+Part
+2
+Examining the Mirror
+Image titled Tell if a Mirror Is Two Way or Not Step 4
+1
+Try to peer through the glass. Press your face up to the mirror and cup your hands around it, creating a dark tunnel to block out as much light as possible. When you do this, if the light in the observation room is at all brighter than the light on your side of the mirror, you should be able to see something beyond the glass.[5]
+Image titled Tell if a Mirror Is Two Way or Not Step 5
+2
+Shine a light on it. If you're still not convinced, turn off the lights, then hold a flashlight to the mirror (it can even be the "flashlight" on your smartphone). If it is a two-way mirror, the room on the other side will be illuminated and you'll be able to see it.
+Image titled Tell if a Mirror Is Two Way or Not Step 6
+3
+Sound it out. Tap on the surface of the mirror with your knuckle. A normal mirror will produce a dull, flat sound, since it's placed in front of a wall. An observation mirror will produce an open, hollow and reverberating sound because there is an open space on the other side.
+The sound of tapping a two-way mirror has also been described as bright or sharp as opposed to a thud from an everyday mirror.[6]
+Image titled 49418 7
+4
+Perform the fingernail test. While it is not completely accurate, you can use your fingernail to determine if the mirror is a first or a second surface mirror. Simply place your fingernail on the surface of the mirror. When you touch your fingernail to a second surface mirror, you can't touch your own reflection; instead, you will see a gap caused by a second layer of glass over the mirrored surface. When you touch your finger to a first surface mirror, you can touch your own reflection, since there's no additional layer of glass in between. First surface mirrors are very rare, so if you find one there's likely to be a very specific reason and it's very possible that it's a two-way mirror. Second surface mirrors are your ubiquitous everyday mirrors.[7]
+Due to variables like lighting and the material with which the mirror is manufactured, it can be really difficult to tell whether you are truly touching your reflection or not. You might think you're touching a first surface mirror when you're actually not.
+Also, it's possible for a two-way mirror to be a second surface mirror. If other aspects of the situation, like the mirror's setting and lighting, have indicated that what you're seeing is a two-way, don't let the fingernail test be the deciding factor.
+Image titled Tell if a Mirror Is Two Way or Not Step 8
+5
+Consider the extreme measure of breaking the glass. If it's a regular mirror, it will shatter and you'll see the mirror's backing or a solid wall. If it's a two-way mirror, you'll see the room behind the mirror. You should probably only consider this option if you feel threatened or are in danger. Breaking the glass will cause damage and create a safety hazard.
+How to Get Rid of Bad Luck
+If you're superstitious or you just feel like you’ve been dealt a bad hand lately, you may be wondering how to get luck on your side. Fortunately, there are many things you can do to get rid of your bad luck.
+Part
+1
+Getting Rid of Bad Luck
+Image titled Get Rid of Bad Luck Step 1
+1
+Use salt. Salt is considered good luck by many cultures in the world. In order to get rid of many forms of bad luck you can take a pinch of salt and throw it over your LEFT shoulder (throwing salt over your right shoulder will bring you more bad luck).[1]
+Alternatively, you can cleanse your body of bad luck by bathing in salt water. Simply add two tablespoons of salt to a bath of hot water.
+Another method is to sprinkle sea salt in the corner of each room and underneath each windowsill. This will protect your home from bad luck.
+Image titled Get Rid of Bad Luck Step 2
+2
+Don't throw away pieces of broken mirror. If you break a mirror you should never just throw the pieces away. This will effectively seal your fate and give you 7 long years of bad luck.[2]
+You can either take all of the pieces of the mirror and grind them down to dust and scatter it in the wind or take a single piece of the mirror (big enough to reflect but not big or sharp enough to be dangerous to yourself or anything else) and wait until the next full moon.
+Depending on how close you are to the full moon you'll still get bad luck for a small while but if you use the mirror to reflect the full moon and gaze into it, it nullifies the bad luck. You can then bury the piece of mirror or keep it.
+Image titled Get Rid of Bad Luck Step 3
+3
+Burn incense. Burning incense is an effective way to get rid of bad luck and negative energy.
+Choose pungent scents like sandalwood or jasmine, and if you are burning more than one stick, make sure to use an odd number rather than an even number.
+If you are experiencing bad luck in your personal life, burn the incense at home. Carry the incense from one room to the next, letting the scented smoke fill all four corners of your home.
+If you are experiencing bad luck at work, burn the incense in your office.
+Image titled Get Rid of Bad Luck Step 4
+4
+Carry protective charms. Small, protective charms are a great way of warding off bad luck as you go about your daily life.[3] They can be worn on a chain or bracelet or carried around in a pocket. Some of the most common ones include.
+Keys: Key charms have been used to bring good luck since ancient times. Wearing three keys together is said to unlock the three doors of wealth, health and love.
+Shamrock and clover: Wearing fresh shamrock or clover, or wearing a charm in the shape of the rare four-leafed clover is a popular method of bringing good luck. Each of the four leaves represent a lucky characteristic; wealth, fame, love and health.[4]
+Horseshoe: Horse shoes are said to be lucky[5] , as they ward off the "evil eye". Hang one in your home for protection or wear a Horseshoe symbol on a chain - just make sure the ends are pointed upwards, otherwise the good luck can "escape".
+Rabbit foot: A rabbit's foot is believed to bring good luck and protection in many cultures. However, not any foot will do - it must be the left hind foot. In addition, the foot must be stroked or rubbed in order to activate the good luck.[6]
+Image titled Get Rid of Bad Luck Step 5
+5
+Burn sage. Sage has been burned by people of various cultures for years as a way of clearing out negative energy. The practice of burning sage is known as smudging.
+Buy a stick of sage or some dried sage and light it up. It should smolder rather than burn. Carry the sage around your home, waving the smoke away from you into every corner of the house.
+Open the doors and windows to let the negative energy exit. If you like, you can burn some sweetgrass afterwards to invite positive energy into your home.[7]
+Image titled Get Rid of Bad Luck Step 6
+6
+Use crystals and stones. Various crystals and stones are believed to have mythical properties, ranging from protection, to warding off negative energy to bringing good luck. Keep these crystals or stones in your home, place of work, or carry them on your person.
+Black tourmaline will protect you from negative energies, such as the ill-wishes of others. Rose quartz will encourage positive energy to replace the negative.
+Labradorite will protect you from psychic vampires or leeches, who will attempt to suck your energy and positive emotions from you.
+Amethyst will protect you from harm while travelling, and protect soldiers from harm.
+Other stones that can be used for protection from negative energies or evil spirits include: ruby, quartz, peridot, obsidian, jasper, moonstone, black onyx, emerald, turquoise, blue topaz, sugilite, citrine, carnelian and bloodstone.
+Image titled Get Rid of Bad Luck Step 7
+7
+Do a good deed. One of the best ways to change your luck is to earn yourself some positive karma by doing good deeds. This is a way of repaying for any bad things you've done in this life or a previous one.
+Improve your karma by making a donation to charity, or by helping people in need, such as the homeless, elderly people or orphaned children.
+It is important that you do these good deeds out of a sincere desire to help others. If you are only performing good deeds to win good karma and make your own life easier, the action is voided.
+Engaging in charity work will also help to put your own situation in perspective - you may think you have suffered from bad luck, but once you see the suffering of others you may realize that your situation is not so bad.
+Image titled Get Rid of Bad Luck Step 8
+8
+Cleanse your chakras with fresh flowers. Fresh flowers can be used to cleanse your seven chakras - getting rid of negative energy and inviting new fortune.
+You will need at least seven different types of flowers, in as many colors as possible (any color but white). Remove any stems and leaves, you just need to flowers themselves.
+Place the flowers in a basin of water and put it outside to soak in the sun for an hour. This allows the water to soak up the positive energy of the flowers.
+Bring the basin to the bathroom and use a washcloth to bathe in the flower-energized water. As you bathe, concentrate on a patch of light emanating from the center of your forehead. Allow this light to spread all over your body.
+When you have finished bathing, carefully collect the flowers, place them in a paper bag and dispose of them. Imagine your bad luck being thrown away with the flowers.
+Image titled Get Rid of Bad Luck Step 9
+9
+Pray. Praying to God, or whatever spiritual being you believe in can help you to regain good luck. Remember to pray regularly, and ask for forgiveness for past wrongdoings and negative thoughts.[8]
+Take some time during your prayer sessions to reflect on who you are as a person and whether you could take any steps to better yourself.
+Thank God for all of the good things in your life - this simple action could change your perspective on your perceived "bad luck" and make you realize that you are, in fact, blessed.
+Image titled Get Rid of Bad Luck Step 10
+10
+Declutter your home. Living in an untidy home can block positive energies from flowing through the house and create negative feelings and bad luck. This simple action can give you renewed energy and empower you to change your luck from bad to good.
+Start by decluttering your home - remove any unwanted or disused items and throw them away. Then give your house a thorough cleaning - clearing cobwebs and removing dust.
+Try rearranging your furniture, to improve the flow of energy and repaint your walls to bring new life to your living space.
+Try listening to music and burning incense while you work and leave all of the doors and windows open to let the sunshine in - this will encourage positive energy to flow into your renewed living space.
+Image titled Get Rid of Bad Luck Step 11
+11
+Use the power of light. Introducing bright light into your home is an effective way of getting rid of bad luck and diffusing negative energies.
+Try turning on all of the lights in your house and lighting candles, so there are no dark spots for bad energies to hide in.
+One practice which uses the power of light to protect you from bad luck and attract good luck in its place is to light three candles - two of them must be white, one for protection and one for cleansing, and the other one must be orange, to bring about a change in luck.
+Image titled Get Rid of Bad Luck Step 12
+12
+Travel to another country. Traveling to another country is said to get rid of bad luck, as the bad luck gets left behind and will disperse in your absence. The further you can get away from your home country, the better.
+Crossing an ocean or flying to somewhere in a different time zone works best.
+Travelling could also help you to realize that the bad luck is not on you, but on your house or job situation.
+Taking some time away may help you to understand the changes that need to made on your return, in order to get rid of bad luck.
+Part
+2
+Avoiding Bad Luck
+Image titled Get Rid of Bad Luck Step 13
+1
+Avoid actions or circumstances that bring bad luck. Many superstitions regarding things that bring bad luck are well known, but it is a good idea to recap on the main ones. This way you can try to strategically alter your behavior to avoid bad luck. Even if the bad luck is unavoidable, you will be able to recognize the signs and take immediate steps to reverse the it. Some common indications of bad luck include:
+Breaking a mirror - this is said to bring seven years of bad luck.
+Seeing a crow - if a crow crosses your path, it is said to be bad luck. However, if two cross your path, the bad luck is reversed.
+Walking under a ladder- this is believed to be bad luck as a ladder leaning against the wall forms a triangle - symbol of the Holy Trinity. By walking through the triangle you are violating sacred ground.
+Putting shoes on any table - In England, putting shoes on the table was said to be a sign of respect for a dead miner. Therefore, by putting shoes on the table you are tempting fate.
+"Jinxing" yourself - this means saying out loud something bad that you think will happen to you. This is a form of tempting fate. To reverse it, knock 3 times on a table or any other surface but, make sure your knocking can be heard.
+Wearing opals is believed to be bad luck - unless you were born in the month of October
+Stepping on a crack in the pavement/sidewalk. As the old saying goes: "step on a crack and fate will break your mother's back!"
+Having a black cat cross your path is said to be bad luck. This superstitions comes from black cats' association with witches and magic.
+Opening an umbrella indoors is considered to be bad luck - a superstition that comes from the Ancient Egyptians (who used umbrellas for shade). In those times, opening an umbrella indoors was believed to be an insult to the God of Sun.
+Image titled Get Rid of Bad Luck Step 14
+2
+Familiarize yourself with some of the more vague superstitions. Some superstitions are less well-known. It is a good idea to read up such superstitions and be aware of the risks associated with certain actions, otherwise you may inadvertently bring bad luck upon yourself. Examples of some of the less well known causes of bad luck are:
+Picking a penny up if it is tails up.
+Getting dressed with your left arm/left leg first.
+Seeing an owl during the day
+Knitting a pair of socks for your boyfriend - he'll walk away from you.
+Killing ladybugs or spiders (especially money spiders).
+It is bad luck to close a pocket knife unless you were the one who opened it.
+"Sleeping with feet towards a door will lose you your soul forevermore"
+If an owl hoots three times in your garden.
+Sleeping on or under a dinner table.
+Starting a venture on a Friday.
+Killing a bee within your home.
+Turning a loaf of bread upside down once it has been sliced will bring you terrible luck.
+Saying the word "Pig" at sea.
+If you ever drop a knife, picking it up yourself will bring you bad luck in money and love. You should ask someone else to pick it up for you.
+To start a new venture, meet someone new, or start a relationship on Friday 13th.
+Stabbing needles though your yarn balls brings bad luck to anyone who wears something made from that yarn.
+If you buy a new pair of shoes, you must wear them on the wrong feet first or you will have bad luck whenever you wear them
+Image titled Get Rid of Bad Luck Step 15
+3
+Be careful of superstitions that foretell death and sickness. Most superstitions only foretell bad luck, however some superstitions also foretell death and sickness. You should definitely familiarize yourself with these:
+If a robin flies into a room through a window, death will shortly follow.
+You must hold your breath while going past a cemetery or you will breathe in the spirit of someone who has recently died.
+If you open your front door and are greeted by a magpie staring at you, this is a sure sign of death
+If you dream of death it's a sign of a birth, if you dream of birth, it's a sign of death.
+If the left eye twitches there will soon be a death in the family.
+A white moth inside the house or trying to enter the house means death.
+Dreaming of white is believed to foreshadow death.
+Part
+3
+Recognizing Signs of Good Luck
+Image titled Get Rid of Bad Luck Step 16
+Recognize when your luck begins to change. Once you have taken some positive actions to get rid of your bad luck, it is important that you stay alert to signs that your luck is changing.
+How to Play Bingo
+Bingo is a fun game of chance that anyone can play. The game is played on a scorecard that's made up of 25 squares — if you get 5 squares in a row, you win!
+Part
+1
+Setting up Bingo
+Image titled Play Bingo Step 1
+1
+Get at least 1 scorecard for each player. Bingo scorecards have 25 randomly numbered squares on them, with the word "BINGO" written across the top. Your goal is to cover 5 of those squares in a vertical, horizontal, or diagonal row.[1]
+You can find Bingo scorecards online at your local hobby store.
+If you're playing Bingo with kids, you can print blank Bingo scorecards from off the internet and write in your own words, symbols, or pictures in the squares.
+Image titled Play Bingo Step 2
+2
+Explain to everyone how the game's letter-number combinations work. In standard Bingo, there are 75 different letter-number combinations. Each letter-number combination corresponds with a square on the scorecards. [2]
+For example, all of the numbers in the "B" column on the scorecard correspond with "B" letter-number combinations. If the caller chooses "B-9," you would look for the "9" square under the "B" column.
+If you're looking for a simpler version of Bingo to play with kids, you can use pictures or words instead of letter-number combinations.
+Image titled Play Bingo Step 3
+3
+Choose a player to be the caller. In Bingo, the caller is the person that reads out the letters and numbers that determine which squares get covered on everyone's scorecards. The caller still gets to play the game with everyone else.[3]
+If you're playing at a Bingo hall, there will already be a designated caller. In that case, the caller will not be playing with everyone else.
+Image titled Play Bingo Step 4
+4
+Pass out scorecards to all the players. Each player needs at least 1 scorecard. Players can use more than 1 scorecard, as long as they can keep track of all the letters and numbers on the different cards.[4]
+Playing with multiple scorecards increases your chances of winning, but it's trickier since you have more squares to keep track of.
+When you're playing with multiple scorecards, it's possible to win on more than one scorecard in the same game.
+Image titled Play Bingo Step 5
+5
+Give each player a pile of Bingo chips. Bingo chips are what players will use to cover the squares on their scorecards. Any small objects will work as Bingo chips, as long as they can fit inside the squares on the scorecards.
+You can use poker chips, coins, or even small pieces of paper as Bingo chips.
+6
+Place a chip on the square in the center of your scorecard. In Bingo, the square in the center of everyone's scorecard is considered a free space. Everyone starts out with 1 chip over that space.[5]
+Image titled Play Bingo Step 6
+7
+Give the caller the letters and numbers they'll call out in the game. These letters and numbers can be written down on small pieces of paper and then folded up, or you can use actual Bingo balls that have letters and numbers on them. They just need to correspond with the letters and numbers on the scorecards.[6]
+Put the pieces of paper or Bingo balls in a bucket, bowl, or Bingo spinner so the caller can choose them at random.
+If you're playing Bingo with kids and the scorecards have pictures or words on them, give the caller corresponding pictures or words to choose from.
+Part
+2
+Playing the Game
+Image titled Play Bingo Step 7
+1
+Have the caller read out a letter-number combination. The caller should grab a letter-number combination at random, without looking, and read it out loud. Have them call out the combination a few times so everyone hears it.[7]
+For example, if the caller pulls out a piece of paper or a ball that says "N-37" on it, they would say "N-37" out loud.
+If you're playing Bingo with pictures or words instead of letter-number combinations, have the caller read out the word or describe the picture to the other players.
+Image titled Play Bingo Step 8
+2
+Place a chip on your scorecard if you have that letter and number. After the caller reads out the letter-number combination, check your scorecard to see if you have the letter and number they called out. If you do, put a chip on that square.[8]
+For example, if the caller says "G-46," you would look for the number "46" in the "G" column on your scorecard. If you have it, you'd cover that square with a chip.
+If you don't have the letter and number the caller chose, you don't have to do anything.
+Image titled Play Bingo Step 10
+3
+Continue playing until someone gets 5 chips in a row on their scorecard. Have the caller continue to call out different letter-number combinations. Players should keep placing chips on the squares on their scorecard whenever a corresponding letter-number combination is called.
+A player wins if they get 5 covered squares in a horizontal, vertical, or diagonal row.
+There's no limit to how many letter-number combinations the caller reads out. They'll keep choosing new combinations until someone wins.
+Image titled Play Bingo Step 9
+4
+Shout "Bingo" if you get 5 squares in a row. When a player gets 5 covered squares in a row on their scorecard, they should yell "Bingo" so everyone knows they won. When someone shouts "Bingo," the caller will stop choosing new letter-number combinations.[9]
+If more than 1 player shouts "Bingo" after the same letter-number combination is called out, all of those players win.
+Image titled Play Bingo Step 10
+5
+Have everyone clear their scorecards after someone wins. Once someone has called out "Bingo" and won that round, everyone should take all the chips off their scorecards. You should always start a new game with a clear scorecard (except for the chip on the free space in the center).[10]
+Image titled Play Bingo Step 13
+6
+Mix up all the letter-number combinations for the next game. To start a new game of Bingo, the caller will need to mix all the letter-number combinations they called during the last game back into the bucket, bowl, or spinner they're using. Always start a new game with all of the letter-number combinations mixed together.
+
+
+
