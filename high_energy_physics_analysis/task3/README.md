@@ -16,8 +16,8 @@ $$
 (-\infty, Q_{normal}(2.5\% )], (Q_{normal}(2.5\% ), Q_{normal}(16\% )], (Q_{normal}(16\% ), Q_{normal}(84\% )], (Q_{normal}(84\% ), Q_{normal}(97.5\% )], (Q_{normal}(97.5\% ), +\infty)
 $$
 
-- $(-\infty, Q_{normal}(2.5$ % $)]$
-- $(Q_{normal}(2.5\%), Q_{normal}(16\%)]$
+- $(-\infty, Q_{normal}(2.5$%$)]$
+- $(Q_{normal}(2.5%), Q_{normal}(16%)]$
 - $(Q_{normal}(16\%), Q_{normal}(84\%)]$
 - $(Q_{normal}(84\%), Q_{normal}(97.5\%)]$
 - $(Q_{normal}(97.5\%), +\infty)$
