@@ -7,7 +7,7 @@ Run one by one or simply `bash run_all.sh`
 ### 1) Using the numeric MC integration with $n = 106$ points evaluate the following:
 
 $$
-\int_{-3}^{3} x^4 \, dx
+\int_{-3}^{3} x^4 \ dx
 $$
 
 Estimate numeric error.
