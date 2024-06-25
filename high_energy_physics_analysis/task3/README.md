@@ -6,15 +6,15 @@ a) Produce $m = 20000 y_i$ values that follow a rv $Y$ in order to graphically p
 
 b) Using a histogram (which is a pmf after the normalization: $\int \rightarrow 1$) ) from the previous step, estimate approximate confidence intervals (CIs) given the following confidence levels: 68, 95, and 99%. Produce two-sided CIs.
 
-c) Assume the observed value is the following $x_obs = {6,6, ..., 6}$,  using the pmf from step 1a estimate the p-value for the given observation. Increase $m$ if deemed necessary in order to evaluate at 1% precision or better.
+c) Assume the observed value is the following $x_{obs} = {6,6, ..., 6}$,  using the pmf from step 1a estimate the p-value for the given observation. Increase $m$ if deemed necessary in order to evaluate at 1% precision or better.
 
-d) Analytically calculate the exact p-value for the observed $x_obs$. An exact joint pdf/cdf consisting of marginal uniform pdfs/cdfs is needed for such a calculation. Is the result different from 1c? Why? Also, see note at the end.
+d) Analytically calculate the exact p-value for the observed $x_{obs}$. An exact joint pdf/cdf consisting of marginal uniform pdfs/cdfs is needed for such a calculation. Is the result different from 1c? Why? Also, see note at the end.
 
 e) Use an actual $Normal(\mu = 5, \sigma^2 = \frac{100}{12 \cdot 50})$ in order to estimate an aggregated error using CLT via five bins. Let bins correspond to the following ranges:
 
-$(-\infty, Q_normal(2.5\%)], (Q_normal(2.5\%), Q_normal(16\%)], (Q_normal(16\%), Q_normal(84\%)], (Q_normal(84\%), Q_normal(97.5\%)], (Q_normal(97.5\%), +\infty)$.
+$(-\infty, Q_{normal}(2.5\%)], (Q_{normal}(2.5\%), Q_{normal}(16\%)], (Q_{norma}l(16\%), Q_{normal}(84\%)], (Q_{normal}(84\%), Q_{normal}(97.5\%)], (Q_{normal}(97.5\%), +\infty)$.
 
-Use corresponding five probability pairs in order to evaluate:  $err = \frac{1}{5} \sum_{i}^5(P_{Normal}-P_{pmf})^2$ using $m = 20000$.
+Use corresponding five probability pairs in order to evaluate:  $err = \frac{1}{5} \sum_{i}^{5} (P_{Normal}-P_{pmf})^2$ using $m = 20000$.
 
 
 ### 2) Let’s extend the previous problem with the second population $Z_i \sim$ idd Uniform($a=-2, b=16$), and the second combined rv $A = \frac{1}{n_2} \sum_{i}^{n_2}Z_i$. For simplicity, suppose $n = n_2 = 50$. Let 
