@@ -2,7 +2,7 @@
 
 ### 1) Let there be a population $X_i \sim$ iid Uniform($a=0, b=10$), a combined rv is defined as $Y = \frac{1}{n}\sum_{i}^n X_i$. Suppose $n=50$:
 
-a) Produce $m = 20000 y_i$ values that follow a rv $Y$ in order to graphically prove the Central Limit Theorem. Use a histogram to bin $y_i$ values.
+a) Produce $m = 20000$ $y_i$ values that follow a rv $Y$ in order to graphically prove the Central Limit Theorem. Use a histogram to bin $y_i$ values.
 
 b) Using a histogram (which is a pmf after the normalization: $\int \rightarrow 1$) ) from the previous step, estimate approximate confidence intervals (CIs) given the following confidence levels: 68, 95, and 99%. Produce two-sided CIs.
 
