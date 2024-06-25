@@ -14,12 +14,15 @@ e) Use an actual $Normal(\mu = 5, \sigma^2 = \frac{100}{12 \cdot 50})$ in order 
 
 $(-\infty, Q_{normal}(2.5\% )], (Q_{normal}(2.5\% ), Q_{normal}(16\% )], (Q_{norma}l(16\% ), Q_{normal}(84\% )], (Q_{normal}(84\% ), Q_{normal}(97.5\% )], (Q_{normal}(97.5\% ), +\infty)$.
 
-Use corresponding five probability pairs in order to evaluate:  $err = \frac{1}{5} \sum_{i}^{5} (P_{Normal}-P_{pmf})^2$ using $m = 20000$.
+Use corresponding five probability pairs in order to evaluate: $err = \frac{1}{5} \sum_{i=1}^{5} (P_{Normal} - P_{pmf})^2$ using $m = 20000$.
 
 
 ### 2) Let’s extend the previous problem with the second population $Z_i \sim$ idd Uniform($a=-2, b=16$), and the second combined rv $A = \frac{1}{n_2} \sum_{i}^{n_2}Z_i$. For simplicity, suppose $n = n_2 = 50$. Let 
+
 $H_0: TS \sim Y$;
+
 $H_A: TS \sim A$.
+
 Given the same observation of ${6,6, ...,6}$, the $TS_{obs} = 6$, using pmfs with $m = m_2 = 50000$ find the following:
 
 a) Calculate the p-value given the $H_A$ is true.
