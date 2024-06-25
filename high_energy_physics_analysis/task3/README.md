@@ -12,7 +12,9 @@ d) Analytically calculate the exact p-value for the observed $x_{obs}$. An exact
 
 e) Use an actual $Normal(\mu = 5, \sigma^2 = \frac{100}{12 \cdot 50})$ in order to estimate an aggregated error using CLT via five bins. Let bins correspond to the following ranges:
 
-$(-\infty, Q_{normal}(2.5\% )], (Q_{normal}(2.5\% ), Q_{normal}(16\% )], (Q_{norma}l(16\% ), Q_{normal}(84\% )], (Q_{normal}(84\% ), Q_{normal}(97.5\% )], (Q_{normal}(97.5\% ), +\infty)$.
+$$
+(-\infty, Q_{normal}(2.5\% )], (Q_{normal}(2.5\% ), Q_{normal}(16\% )], (Q_{normal}(16\% ), Q_{normal}(84\% )], (Q_{normal}(84\% ), Q_{normal}(97.5\% )], (Q_{normal}(97.5\% ), +\infty)
+$$
 
 Use corresponding five probability pairs in order to evaluate: $err = \frac{1}{5} \sum_{i=1}^{5} (P_{Normal} - P_{pmf})^2$ using $m = 20000$.
 
