@@ -1,16 +1,11 @@
-# PublicProjects
-This is a public repository showcasing some of my projects.
+# PublicProjects (archived)
 
-Currently not every relevant project is added. I'll do my best to keep it updated.
+This repo has been split into focused, individually maintained repos:
 
-`ResearchWork` folder contains written formatted work in pdf and some presentations.
+- [basic_ttH_analysis_project](https://github.com/imPhacko/basic_ttH_analysis_project) — NN regression of invariant mass on simulated ttH events
+- [quantum-computing](https://github.com/imPhacko/quantum-computing) — Qiskit and QuEST quantum algorithm implementations
+- [rnn-political-debate-textgen](https://github.com/imPhacko/rnn-political-debate-textgen) — character-level RNN trained on 2020 debate transcripts
+- [hep-coursework](https://github.com/imPhacko/hep-coursework) — IHEPA coursework (kinematics, statistics, Monte Carlo)
+- [ttH-higgs-pt-regression](https://github.com/imPhacko/ttH-higgs-pt-regression) — CMS ttH kinematics study and Higgs pT regression, benchmarked against a published CMS result
 
-`RNN_political_debate_text_gen_AI` contain project, a trained text gen ai for generating Trump and Biden political debates.
-
-`high_energy_physics_analysis` folder contains tasks completed during IHEPA course, showcasing some useful results and methods.
-
-`learning_ANN` folder contains some of my neural network study process. Contains a text generation project.
-
-`QuantumComputing` folder has basic quantum algorithm examples. It has codes both in Python with Qiskit and in C/C++ with QuEST.
-
-`basic_ttH_analysis_project` includes a simple regressor of invariant mass of the process using training inputs from a simulated ttH process (without further decays) using MadGraph5 software.
+See my [profile README](https://github.com/imPhacko) for an overview of all my projects.
